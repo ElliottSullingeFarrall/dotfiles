@@ -1,0 +1,6 @@
+{
+  "enabledManagers": ["nix"],
+  "nix": {
+    "enabled": true
+  }
+}

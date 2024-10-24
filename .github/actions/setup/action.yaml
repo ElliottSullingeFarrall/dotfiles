@@ -16,6 +16,7 @@ runs:
   steps:
     - name: Clear Space
       shell: bash
+      if: inputs.clear_space == 'true'
       run: sudo rm -rf /usr/share /usr/local /opt || true
 
     - name: Install Nix
